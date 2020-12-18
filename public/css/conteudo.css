@@ -1,0 +1,12 @@
+section {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 75px 0px 0px;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}

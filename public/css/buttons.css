@@ -1,4 +1,4 @@
-.buttonLogin {
+.button-login {
   position: relative;
   width: 130px;
   height: 40px;
@@ -25,12 +25,12 @@
   cursor: pointer;
 }
 
-.buttonLogin:hover {
+.button-login:hover {
   background: #fdefff;
   cursor: pointer;
 }
 
-.buttonSignup {
+.button-signup {
   position: relative;
   width: 130px;
   height: 40px;
@@ -54,7 +54,34 @@
   border-radius: 6px;
 }
 
-.buttonSignup:hover {
+.button-signup:hover {
   background: #8f16a2;
   cursor: pointer;
 }
+
+.button-help {
+  position: relative;
+  width: 150px;
+  height: 50px;
+
+  /* background: #70C217; */
+  background: linear-gradient(0deg, #70C217, #70C217);
+
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #fff;
+  letter-spacing: 0.015em;
+
+  border: 2px solid #70C217;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.button-help:hover {
+    background: #2FDF84;
+    border-color: #2FDF84;
+    cursor: pointer;
+  }

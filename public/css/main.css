@@ -6,11 +6,36 @@
   font-family: sans-serif;
   font-size: 16px;
   font-weight: 300;
+  
+  list-style-type: none;
 }
 
 body {
   font-family: sans-serif;
 
-  
   background-color: #fafafa;
+}
+
+.brand {
+
+  height: 85px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+/* @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"); */
+.brand a {
+  /* position: absolute; */
+  width: 136px;
+  height: 55px;
+  left: 0px;
+
+  font-family: "Ubuntu", sans-serif;
+  line-height: 55.15px;
+  font-size: 48px;
+  font-weight: 700;
+
+  color: rgb(0, 0, 0);
 }
