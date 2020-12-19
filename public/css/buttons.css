@@ -85,3 +85,51 @@
     border-color: #2FDF84;
     cursor: pointer;
   }
+
+.button-whatsapp{
+  position: relative;
+  width: 120px;
+  height: 30px;
+
+  background: #2CA639;
+
+  font-family: Montserrat;
+  /* font-weight: 400; */
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #fff;
+
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.015em;
+
+  border: 2px solid #2CA639;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.button-facebook{
+  position: relative;
+  width: 120px;
+  height: 30px;
+
+  background: #3A5999;
+
+  font-family: Montserrat;
+  /* font-weight: 400; */
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #fff;
+
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.015em;
+
+  border: 2px solid #3A5999;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
