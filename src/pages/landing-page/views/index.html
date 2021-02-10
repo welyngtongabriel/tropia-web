@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TROPIA</title>
 
-    <link
-      rel="stylesheet"
-      href="../../../../public/css/landing-page/main.css"
-    />
+    <link rel="stylesheet" href="../../../../public/css/main.css" />
     <link
       rel="stylesheet"
       href="../../../../public/css/landing-page/navbar.css"
@@ -23,6 +20,10 @@
     />
     <link
       rel="stylesheet"
+      href="../../../../public/css/landing-page/presentation.css"
+    />
+    <link
+      rel="stylesheet"
       href="../../../../public/css/landing-page/sobre.css"
     />
     <link
@@ -33,6 +34,7 @@
       rel="stylesheet"
       href="../../../../public/css/landing-page/apoie.css"
     />
+    <link rel="stylesheet" href="../../../../public/css/footer.css" />
 
     <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -52,13 +54,17 @@
       <div class="nav">
         <div class="brand">
           <!-- Adicionar "img" com o logo dentro de "a" -->
-          <a href="#">LOGO</a>
+          <a href="#">TROPIA</a>
         </div>
         <div id="navbarLinks">
           <ul class="navbar-nav">
-            <li class="nav-link">O que é?</li>
-            <li class="nav-link">Recursos</li>
-            <li class="nav-link nav-support-us">Apoie</li>
+            <li><a href="#about-section" class="nav-link">O que é?</a></li>
+            <li><a href="#resources-section" class="nav-link">Recursos</a></li>
+            <li>
+              <a href="#support-us-section" class="nav-link nav-support-us"
+                >Apoie</a
+              >
+            </li>
             <li>|</li>
             <li>
               <div class="nav-buttons">
@@ -74,22 +80,31 @@
     </nav>
 
     <!-- Conteúdo da página -->
-    <section class="content">
+    <main class="content">
       <!-- Apresentação -->
       <section id="presentation-section">
         <header>
-          <div>
+          <div class="heading">
             <h1>Desburocracia das doações</h1>
-            <p>
+            <p class="heading-description">
               Estamos vindo para agilizar seu atendimento nas doações de sangue
               de uma vez por todas.
             </p>
             <div class="interested-presentation">
-              <p>Inscreva-se para ser avisado no lançamento!</p>
+              <p class="heading-description bold">
+                Inscreva-se para ser avisado no lançamento!
+              </p>
 
-              <a href="./form-interessed.html">
-                <button class="button-signup">Quero ser avisado</button>
-              </a>
+              <div>
+                <a href="./form-interessed.html">
+                  <button
+                    class="button-signup"
+                    style="height: 50px; width: 250px"
+                  >
+                    Quero ser avisado
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -97,17 +112,28 @@
             <img
               src="../../../../public/images/illustration-of-people-donating-blood-2707824.jpg"
               alt="Doadores de sangue"
-              width="708px"
+              width="658px"
             />
           </div>
         </header>
+        <div class="scroll-down">
+          <img
+            src="../../../../public/images/mouse-scroll.svg"
+            alt="Role para baixo"
+          />
+          <p>Role para baixo</p>
+        </div>
       </section>
 
       <!-- Sobre Nós -->
-      <section id="about-section">
+      <section id="about-section" name="about">
         <!-- <div class="back-about"></div> -->
 
-        <img class="back-about" src="../../../../public/images/back-about.svg" alt="" />
+        <img
+          class="back-about"
+          src="../../../../public/images/back-about.svg"
+          alt=""
+        />
 
         <div class="about">
           <div class="about-description">
@@ -127,7 +153,6 @@
           </div>
 
           <img src="../../../../public/images/spots.svg" alt="" />
-
         </div>
       </section>
 
@@ -138,28 +163,42 @@
             <div class="frame">
               <img
                 src="../../../../public/icons/resources/ringing.svg"
-                alt=""
+                alt="Sino de aviso"
               />
               <p>Seja avisado de necessidades de sangue nos hemocentros</p>
             </div>
             <div class="frame">
-              <img src="../../../../public/icons/resources/add.svg" alt="" />
-              <p>Seja avisado de necessidades de sangue nos hemocentros</p>
+              <img
+                src="../../../../public/icons/resources/add.svg"
+                alt="Agenda"
+              />
+              <p>Agende doações de sangue a qualquer momento</p>
             </div>
             <div class="frame">
-              <img src="../../../../public/icons/resources/verify.svg" alt="" />
-              <p>Seja avisado de necessidades de sangue nos hemocentros</p>
+              <img
+                src="../../../../public/icons/resources/verify.svg"
+                alt="Cadastro"
+              />
+              <p>Um único cadastro em todos os hemocentros parceiros</p>
             </div>
           </div>
 
           <div class="lin">
             <div class="frame">
-              <img src="../../../../public/icons/resources/bulb.svg" alt="" />
-              <p>Seja avisado de necessidades de sangue nos hemocentros</p>
+              <img
+                src="../../../../public/icons/resources/bulb.svg"
+                alt="Dicas"
+              />
+              <p>
+                Faça pré-triagem online e receba dicas para não perder a viagem
+              </p>
             </div>
             <div class="frame">
-              <img src="../../../../public/icons/resources/reward.svg" alt="" />
-              <p>Seja avisado de necessidades de sangue nos hemocentros</p>
+              <img
+                src="../../../../public/icons/resources/reward.svg"
+                alt="Crédito"
+              />
+              <p>Ganhe moedas para doar a outras causas sociais e ambientais</p>
             </div>
           </div>
         </div>
@@ -167,10 +206,18 @@
         <div class="interested-resources">
           <p>
             <b>Gostou da novidade?</b>
-            <br>
+            <br />
             Inscreva-se para ser o primeiro a ficar sabendo no lançamento.
           </p>
-          <button class="button-signup" style="height: 50px;">Me avise primeiro!</button>
+          <a href="./form-interessed.html">
+            <button
+              action="./form-interessed.html"
+              class="button-signup"
+              style="height: 50px"
+            >
+              Me avise primeiro!
+            </button>
+          </a>
         </div>
       </section>
 
@@ -194,82 +241,105 @@
             </div>
             <p class="description">
               O apoio pode ser realizado através da plataforma de crowdfunding
-              <a href="#">catarse.me</a>
+              <a class="external-link" href="#">catarse.me</a>
             </p>
 
             <a href="#"><button class="button-support-us">Apoiar</button></a>
           </div>
         </div>
       </section>
+    </main>
 
-      <!-- Rodapé -->
-      <footer>
-        <div class="brand">
-          <!-- Adicionar "img" com o logo dentro de "a" -->
-          <a href="#">LOGO</a>
-          <p>Muito mais que apenas uma doação!</p>
-        </div>
+    <!-- Rodapé -->
+    <footer>
+      <div class="brand">
+        <!-- Adicionar "img" com o logo dentro de "a" -->
+        <a href="#">DALE</a>
+        <p>Muito mais que apenas uma doação!</p>
+      </div>
 
-        <div class="social">
-          <ul class="social-links">
-            <li>
-              <img src="#" alt="" class="social-media-img" />
-              <p>Facebook</p>
-            </li>
-            <li>
-              <img src="#" alt="" class="social-media-img" />
-              <p>Instagram</p>
-            </li>
-            <li>
-              <img src="#" alt="" class="social-media-img" />
-              <p>Twitter</p>
-            </li>
-            <li>
-              <img src="#" alt="" class="social-media-img" />
-              <p>Linkedin</p>
-            </li>
+      <div class="social">
+        <p class="bold">Siga-nos:</p>
+        <ul class="social-links">
+          <li>
+            <img
+              src="../../../../public/icons/socialmedia/facebook.svg"
+              alt="Facebook"
+              class="social-media-img"
+            />
+            <p>Facebook</p>
+          </li>
+          <li>
+            <img
+              src="../../../../public/icons/socialmedia/instagram.svg"
+              alt="Instagram"
+              class="social-media-img"
+            />
+            <p>Instagram</p>
+          </li>
+          <li>
+            <img
+              src="../../../../public/icons/socialmedia/twitter.svg"
+              alt="Twitter"
+              class="social-media-img"
+            />
+            <p>Twitter</p>
+          </li>
+          <li>
+            <img
+              src="../../../../public/icons/socialmedia/linkedin.svg"
+              alt="LinkedIn"
+              class="social-media-img"
+            />
+            <p>Linkedin</p>
+          </li>
+        </ul>
+      </div>
+
+      <hr class="divider-solid" />
+
+      <div class="sections">
+        <div class="more-help-news">
+          <p class="bold">Saiba mais</p>
+
+          <ul class="links">
+            <li>Quem somos</li>
+            <li>Entrar em contato</li>
+            <li>Nossa equipe</li>
+            <li>Ajude a construir</li>
           </ul>
         </div>
 
-        <hr class="divider-solid" />
+        <div class="more-help-news">
+          <p class="bold">Ajuda</p>
 
-        <div class="sections">
-          <div class="sobre">
-            <p>Saiba mais</p>
-
-            <ul class="links">
-              <li>Quem somos</li>
-              <li>Entrar em contato</li>
-              <li>Nossa equipe</li>
-              <li>Ajude a construir</li>
-            </ul>
-          </div>
-
-          <div class="ajuda">
-            <p>Ajuda</p>
-
-            <ul class="links">
-              <li>Central de ajuda</li>
-              <li>Responsabilidade e Segurança</li>
-              <li>Termos de uso</li>
-              <li>Politica de privacidade</li>
-              <li>Créditos</li>
-            </ul>
-          </div>
-
-          <div class="newsletter">
-            <p>Assine nossa news</p>
-            <div class="news-email">
-              <input type="email" id="email" placeholder="Digite seu e-mail" />
-              <button></button>
-            </div>
-          </div>
+          <ul class="links">
+            <li>Central de ajuda</li>
+            <li>Responsabilidade e Segurança</li>
+            <li>Termos de uso</li>
+            <li>Politica de privacidade</li>
+            <li>Créditos</li>
+          </ul>
         </div>
 
-        <div class="creditos">
-          <p>Feito com <span>♥</span> | 2020</p>
+        <div class="more-help-news">
+          <p class="bold">Assine nossa news</p>
+
+          <div class="news-email">
+            <input type="email" id="email" placeholder="Digite seu e-mail" />
+            <button>
+              <img
+                src="../../../../public/icons/resources/button-news.svg"
+                alt="Assinar newsletter"
+              />
+            </button>
+          </div>
         </div>
-      </footer>
-    </section>
+      </div>
+
+      <div class="creditos">
+        <p>Feito com <span>♥</span> | 2020</p>
+      </div>
+    </footer>
   </body>
 </html>

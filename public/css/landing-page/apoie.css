@@ -12,7 +12,7 @@
   display: flex;
   flex-direction: row;
   max-width: 1230px;
-  width: 95%;
+  width: 90%;
 
   /* margin: ; */
 }
@@ -36,7 +36,7 @@ h3 {
   font-size: 48px;
 }
 
-p, a {
+p, a.external-link {
   color: #f2f2f2;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -51,7 +51,7 @@ p.description {
   margin-bottom: 20px;
 }
 
-a {
+a.external-link {
   font-weight: bold;
   text-decoration: underline;
 }

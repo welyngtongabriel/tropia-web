@@ -1,5 +1,6 @@
 .fixed-top {
-  position: absolute;
+  position: fixed;
+  z-index: 1;
 }
 
 .navbar {
@@ -15,7 +16,7 @@
 .nav {
   /* position: relative; */
   height: 100%;
-  max-width: 1230px;
+  max-width: 1280px;
   width: 95%;
   bottom: 0px;
 
@@ -73,7 +74,7 @@
   cursor: pointer;
 }
 
-.nav-help {
+.nav-support-us {
   color: #70c217;
 }
 

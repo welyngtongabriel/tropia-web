@@ -1,12 +1,13 @@
 #about-section {
-  /* position: relative; */
-  /* overflow: hidden; */
+  position: relative;
   width: 100%;
   height: 625px;
 
   display: flex;
   justify-content: center;
   /* align-items: center; */
+
+  overflow: hidden;
 }
 
 /* #about-section img {
@@ -14,15 +15,15 @@
 } */
 
 #about-section img.back-about {
-    margin-top: 80px;
-    /* width: 100%; */
-    /* min-width: 100%; */
-    min-height: 545px;
+  margin-top: 80px;
+  /* max-width: 100%; */
+  /* min-width: 100%; */
+  min-height: 545px;
 }
 
 .about {
   position: absolute;
-  max-width: 1230px;
+  max-width: 1280px;
   width: 90%;
 
   display: flex;
@@ -39,7 +40,7 @@
 }
 
 .about img {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 h2 {
