@@ -1,33 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@</title>
+    <title>TROPIA</title>
 
-    <link rel="stylesheet" href="../../../../public/css/main.css" />
-    <link rel="stylesheet" href="../../../../public/css/navbar.css" />
-    <link rel="stylesheet" href="../../../../public/css/buttons.css" />
-    <link rel="stylesheet" href="../../../../public/css/conteudo.css" />
-    <link rel="stylesheet" href="../../../../public/css/resources.css" />
-    <link rel="stylesheet" href="../../../../public/css/apoio.css" />
+    <link
+      rel="stylesheet"
+      href="../../../../public/css/landing-page/main.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../../public/css/landing-page/navbar.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../../public/css/landing-page/buttons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../../public/css/landing-page/conteudo.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../../public/css/landing-page/sobre.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../../public/css/landing-page/resources.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../../public/css/landing-page/apoie.css"
+    />
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
- 
     <!-- Navbar fixo -->
     <nav class="navbar fixed-top">
       <div class="nav">
         <div class="brand">
           <!-- Adicionar "img" com o logo dentro de "a" -->
           <a href="#">LOGO</a>
-        </div> 
+        </div>
         <div id="navbarLinks">
           <ul class="navbar-nav">
             <li class="nav-link">O que é?</li>
             <li class="nav-link">Recursos</li>
-            <li class="nav-link nav-help">Apoie</li>
+            <li class="nav-link nav-support-us">Apoie</li>
             <li>|</li>
             <li>
               <div class="nav-buttons">
@@ -44,8 +75,7 @@
 
     <!-- Conteúdo da página -->
     <section class="content">
-
-      
+      <!-- Apresentação -->
       <section id="presentation-section">
         <header>
           <div>
@@ -56,40 +86,52 @@
             </p>
             <div class="interested-presentation">
               <p>Inscreva-se para ser avisado no lançamento!</p>
-              <button class="button-signup">Quero ser avisado</button>
+
+              <a href="./form-interessed.html">
+                <button class="button-signup">Quero ser avisado</button>
+              </a>
             </div>
           </div>
 
           <div class="banner">
-            <img src="../../../../public/images/illustration-of-people-donating-blood-2707824.jpg" alt="Doadores de sangue" width="708px">
+            <img
+              src="../../../../public/images/illustration-of-people-donating-blood-2707824.jpg"
+              alt="Doadores de sangue"
+              width="708px"
+            />
           </div>
         </header>
       </section>
 
+      <!-- Sobre Nós -->
       <section id="about-section">
-        <div class="sobre">
-          <h3>O que é @?</h3>
-          <p>
-            Somos uma startup social que irá disponibilizar uma plataforma
-            digital de doações onde você poderá demonstrar sua solidariedade
-            através de doações gratuitas de forma fácil e sem burocracia. E
-            juntos ajudaremos as mais diversas causas sociais e ambientas para o
-            bem da humanidade e do seu futuro.
-            <br />
-            E se você for doador de sangue poderá ser um dos primeiros a
-            participar desta nova revolução social e começar a ajudar muito mais
-            pessoas além do seu sangue apenas agendando suas doações através da
-            @ com os hemocentros parceiros.
-          </p>
-          <!-- <p>
-            E se você for doador de sangue poderá ser um dos primeiros a
-            participar desta nova revolução social e começar a ajudar muito mais
-            pessoas além do seu sangue apenas agendando suas doações através da
-            @ com os hemocentros parceiros.
-          </p> -->
+        <!-- <div class="back-about"></div> -->
+
+        <img class="back-about" src="../../../../public/images/back-about.svg" alt="" />
+
+        <div class="about">
+          <div class="about-description">
+            <h2>O que é a TROPIA?</h2>
+            <p>
+              Somos uma startup social que irá disponibilizar uma plataforma
+              digital de doações onde você poderá demonstrar sua solidariedade
+              através de
+              <span>doações gratuitas de forma fácil e sem burocracia</span>. E
+              juntos ajudaremos as mais diversas causas sociais e ambientas para
+              o bem da humanidade e do seu futuro. <br /><br />
+              E se você for <span>doador de sangue</span> poderá ser um dos
+              primeiros a participar desta nova revolução social e começar a
+              ajudar muito mais pessoas além do seu sangue apenas agendando suas
+              doações através da @ com os hemocentros parceiros.
+            </p>
+          </div>
+
+          <img src="../../../../public/images/spots.svg" alt="" />
+
         </div>
       </section>
 
+      <!-- Recursos da Plataforma -->
       <section id="resources-section">
         <div class="resources">
           <div class="lin">
@@ -124,39 +166,43 @@
 
         <div class="interested-resources">
           <p>
-            <span>Gostou da novidade?</span> <br />
+            <b>Gostou da novidade?</b>
+            <br>
             Inscreva-se para ser o primeiro a ficar sabendo no lançamento.
           </p>
-          <button class="button-signup">Me avise primeiro!</button>
+          <button class="button-signup" style="height: 50px;">Me avise primeiro!</button>
         </div>
       </section>
 
-      <section id="help-section">
-        <div class="help">
-          <div class="help-about">
+      <!-- Apoie a causa -->
+      <section id="support-us-section">
+        <div class="support-us">
+          <div class="support-us-about">
             <h3>Apoie o projeto</h3>
-            <p>
-              Este projeto, assim como muitas pessoas e inclusive a natureza
-              conta com seu apoio para ser realizado. Para evoluirmos a
-              plataforma e ajudar as causas que apoiamos abrimos um
-              financiamento coletivo (crowdfunding) com total transparência onde
-              você pode ajudar nessa revolução.
+            <p class="description">
+              Muitas pessoas e a natureza contam com seu apoio nesse projeto,
+              assim poderemos evoluir a plataforma e ajudar as causas que
+              apoiamos. Para isso abrimos um financiamento coletivo (mais
+              conhecido como crowdfunding) com total transparência onde você
+              pode ajudar nessa revolução.
             </p>
           </div>
-          <div class="help-precing">
+          <div class="support-us-precing">
             <div class="cost">
-              <p>A partir de</p>
-              <p>R$5,00</p>
+              <p class="from">A partir de</p>
+              <p class="price">R$5,00</p>
             </div>
-            <p>
+            <p class="description">
               O apoio pode ser realizado através da plataforma de crowdfunding
-              catarse.me
+              <a href="#">catarse.me</a>
             </p>
-            <button class="button-help">Apoiar</button>
+
+            <a href="#"><button class="button-support-us">Apoiar</button></a>
           </div>
         </div>
       </section>
 
+      <!-- Rodapé -->
       <footer>
         <div class="brand">
           <!-- Adicionar "img" com o logo dentro de "a" -->
@@ -224,8 +270,6 @@
           <p>Feito com <span>♥</span> | 2020</p>
         </div>
       </footer>
-      
     </section>
-    
   </body>
 </html>

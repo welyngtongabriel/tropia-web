@@ -1,0 +1,85 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"); */
+
+#support-us-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #340763;
+  width: 100%;
+  min-height: 420px;
+}
+.support-us {
+  display: flex;
+  flex-direction: row;
+  max-width: 1230px;
+  width: 95%;
+
+  /* margin: ; */
+}
+
+.support-us-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  grid-gap: 20px; /*Espaço entre elementos*/
+
+  /* position: absolute; */
+  width: 705px;
+  height: 230px;
+}
+
+h3 {
+  color: #f2f2f2;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+p, a {
+  color: #f2f2f2;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+}
+
+p.description {
+  max-width: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.support-us-precing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  max-width: 390px;
+}
+
+.cost {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* margin-top: 20px;*/
+}
+
+p.from {
+  font-size: 24px;
+}
+
+p.price {
+  color: #f2c94c;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 80px;
+}
+

@@ -32,7 +32,7 @@
 
 .button-signup {
   position: relative;
-  width: 130px;
+  min-width: 130px;
   height: 40px;
 
   background: #6c117b;
@@ -52,6 +52,8 @@
   border: 2px solid #6c117b;
   box-sizing: border-box;
   border-radius: 6px;
+
+  padding: 5px 15px 5px 15px;
 }
 
 .button-signup:hover {
@@ -59,7 +61,7 @@
   cursor: pointer;
 }
 
-.button-help {
+.button-support-us {
   position: relative;
   width: 150px;
   height: 50px;
@@ -80,7 +82,7 @@
   border-radius: 6px;
 }
 
-.button-help:hover {
+.button-support-us:hover {
     background: #2FDF84;
     border-color: #2FDF84;
     cursor: pointer;
