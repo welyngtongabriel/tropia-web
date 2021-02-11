@@ -16,23 +16,19 @@
     />
     <link
       rel="stylesheet"
-      href="../../../../public/css/landing-page/conteudo.css"
+      href="../../../../public/css/landing-page/index/presentation.css"
     />
     <link
       rel="stylesheet"
-      href="../../../../public/css/landing-page/presentation.css"
+      href="../../../../public/css/landing-page/index/about.css"
     />
     <link
       rel="stylesheet"
-      href="../../../../public/css/landing-page/sobre.css"
+      href="../../../../public/css/landing-page/index/resources.css"
     />
     <link
       rel="stylesheet"
-      href="../../../../public/css/landing-page/resources.css"
-    />
-    <link
-      rel="stylesheet"
-      href="../../../../public/css/landing-page/apoie.css"
+      href="../../../../public/css/landing-page/index/support-us.css"
     />
     <link rel="stylesheet" href="../../../../public/css/footer.css" />
 
@@ -69,7 +65,7 @@
             <li>
               <div class="nav-buttons">
                 <a href="#"><button class="button-login">Entrar</button></a>
-                <a href="#"
+                <a href="./form-interessed.html"
                   ><button class="button-signup">Inscreva-se</button></a
                 >
               </div>
@@ -110,7 +106,7 @@
 
           <div class="banner">
             <img
-              src="../../../../public/images/illustration-of-people-donating-blood-2707824.jpg"
+              src="../../../../public/images/people-donating-blood.jpg"
               alt="Doadores de sangue"
               width="658px"
             />
@@ -152,7 +148,10 @@
             </p>
           </div>
 
-          <img src="../../../../public/images/spots.svg" alt="" />
+          <img
+            src="../../../../public/icons/resources/spots-large.svg"
+            alt=""
+          />
         </div>
       </section>
 
@@ -223,28 +222,30 @@
 
       <!-- Apoie a causa -->
       <section id="support-us-section">
-        <div class="support-us">
-          <div class="support-us-about">
-            <h3>Apoie o projeto</h3>
-            <p class="description">
-              Muitas pessoas e a natureza contam com seu apoio nesse projeto,
-              assim poderemos evoluir a plataforma e ajudar as causas que
-              apoiamos. Para isso abrimos um financiamento coletivo (mais
-              conhecido como crowdfunding) com total transparência onde você
-              pode ajudar nessa revolução.
-            </p>
-          </div>
-          <div class="support-us-precing">
-            <div class="cost">
-              <p class="from">A partir de</p>
-              <p class="price">R$5,00</p>
+        <div class="support-us-color">
+          <div class="support-us">
+            <div class="support-us-about">
+              <h3>Apoie o projeto</h3>
+              <p class="description">
+                Muitas pessoas e a natureza contam com seu apoio nesse projeto,
+                assim poderemos evoluir a plataforma e ajudar as causas que
+                apoiamos. Para isso abrimos um financiamento coletivo (mais
+                conhecido como crowdfunding) com total transparência onde você
+                pode ajudar nessa revolução.
+              </p>
             </div>
-            <p class="description">
-              O apoio pode ser realizado através da plataforma de crowdfunding
-              <a class="external-link" href="#">catarse.me</a>
-            </p>
+            <div class="support-us-precing">
+              <div class="cost">
+                <p class="from">A partir de</p>
+                <p class="price">R$5,00</p>
+              </div>
+              <p class="description">
+                O apoio pode ser realizado através da plataforma de crowdfunding
+                <a class="external-link" href="#">catarse.me</a>
+              </p>
 
-            <a href="#"><button class="button-support-us">Apoiar</button></a>
+              <a href="#"><button class="button-support-us">Apoiar</button></a>
+            </div>
           </div>
         </div>
       </section>
@@ -325,20 +326,25 @@
         <div class="more-help-news">
           <p class="bold">Assine nossa news</p>
 
-          <div class="news-email">
-            <input type="email" id="email" placeholder="Digite seu e-mail" />
-            <button>
+          <form class="news-email">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Digite seu e-mail"
+            />
+            <button type="submit">
               <img
                 src="../../../../public/icons/resources/button-news.svg"
                 alt="Assinar newsletter"
               />
             </button>
-          </div>
+          </form>
         </div>
       </div>
 
-      <div class="creditos">
-        <p>Feito com <span>♥</span> | 2020</p>
+      <div class="credit">
+        <p>Feito com <span class="love">♥</span> por TROPIA | 2021</p>
       </div>
     </footer>
   </body>

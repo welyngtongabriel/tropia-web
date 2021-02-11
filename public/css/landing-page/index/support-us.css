@@ -1,12 +1,18 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"); */
 
 #support-us-section {
+  padding-top: 75px;
+}
+
+.support-us-color {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #340763;
   width: 100%;
   min-height: 420px;
+
+  margin-bottom: 60px;
 }
 .support-us {
   display: flex;
@@ -36,7 +42,8 @@ h3 {
   font-size: 48px;
 }
 
-p, a.external-link {
+p,
+a.external-link {
   color: #f2f2f2;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -82,4 +89,3 @@ p.price {
   font-size: 64px;
   line-height: 80px;
 }
-

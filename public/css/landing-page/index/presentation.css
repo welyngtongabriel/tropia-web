@@ -50,10 +50,6 @@ h1 {
   color: #66645e;
 }
 
-.bold {
-  font-weight: 600;
-}
-
 .interested-presentation {
   display: flex;
   flex-direction: column;
@@ -87,4 +83,8 @@ h1 {
 .scroll-down p {
   color: #a9a9a9;
   font-size: 16px;
+}
+
+.bold {
+  font-weight: 600;
 }

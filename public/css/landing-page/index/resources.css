@@ -49,8 +49,9 @@
   grid-gap: 25px;
 }
 
-.interested-resources p, b {
-  color: #66645E;
+.interested-resources p,
+b {
+  color: #66645e;
   font-family: "Inter", sans-serif;
   font-size: 18px;
 
