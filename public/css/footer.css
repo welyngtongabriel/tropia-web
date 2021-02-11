@@ -80,6 +80,7 @@ footer p {
 
 .news-email {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 
@@ -115,8 +116,13 @@ footer p {
 .credit p {
   font-weight: 500;
 }
+
 span.love {
   font-weight: 600;
   font-size: 24px;
   color: #f2c94c;
+}
+
+fieldset {
+  border: none;
 }

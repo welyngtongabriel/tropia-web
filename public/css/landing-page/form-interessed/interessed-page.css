@@ -57,3 +57,21 @@ p {
   font-size: 16px;
   line-height: 28px;
 }
+
+.back-region {
+}
+
+.back-region button {
+  background-color: transparent;
+  border: none;
+
+  display: flex;
+  align-items: center;
+
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #8692A6;
+
+  grid-gap: 8px;
+}
