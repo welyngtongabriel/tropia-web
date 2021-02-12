@@ -3,32 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@</title>
+    <title>TROPIA | Doe de Graça</title>
 
-    <link rel="stylesheet" href="../../../../public/css/landing-page/main.css" />
-    <link rel="stylesheet" href="../../../../public/css/landing-page/navbar.css" />
-    <link rel="stylesheet" href="../../../../public/css/landing-page/buttons.css" />
-    <link rel="stylesheet" href="../../../../public/css/landing-page/conteudo.css" />
-    <link rel="stylesheet" href="../../../../public/css/landing-page/resources.css" />
+    <link rel="stylesheet" href="../../../../public/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="../../../../public/css/landing-page/navbar.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../../public/css/landing-page/buttons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../../public/css/landing-page/thanks/thanks.css"
+    />
+    <link rel="stylesheet" href="../../../../public/css/footer.css" />
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <!-- Navbar fixo -->
-    <nav class="navbar fixed-top">
+    <nav class="navbar navbar-fixed">
       <div class="nav">
         <div class="brand">
           <!-- Adicionar "img" com o logo dentro de "a" -->
-          <a href="#">LOGO</a>
+          <a href="#">TROPIA</a>
         </div>
         <div id="navbarLinks">
           <ul class="navbar-nav">
-            <li class="nav-link">O que é?</li>
-            <li class="nav-link">Recursos</li>
-            <li class="nav-link nav-help">Apoie</li>
+            <li><a href="#about-section" class="nav-link">O que é?</a></li>
+            <li><a href="#resources-section" class="nav-link">Recursos</a></li>
+            <li>
+              <a href="#support-us-section" class="nav-link nav-support-us"
+                >Apoie</a
+              >
+            </li>
             <li>|</li>
             <li>
               <div class="nav-buttons">
                 <a href="#"><button class="button-login">Entrar</button></a>
-                <a href="#"
+                <a href="./form-interessed.html"
                   ><button class="button-signup">Inscreva-se</button></a
                 >
               </div>
@@ -39,56 +64,196 @@
     </nav>
 
     <!-- Conteúdo da página -->
-    <section class="content">
-      <div class="header">
+    <main>
+      <div class="content">
         <div class="thanks">
-          <h2>Obrigado por se inscrever ;)</h2>
+          <h3>Obrigado por se inscrever ;)</h3>
           <p>
             Assim que a plataforma for lançada em breve te avisaremos de
             primeira para ter uma vida com menos burocracia e praticar ainda
             mais sua solidariedade.
-            <br />
+            <br /><br />
             <b>Enquanto isso, queremos te ouvir!</b> Conta pra gente suas
-            experiências com doações de sangue ou o que gostaria, assim vamos
-            poder ajudar muito mais.
+            experiências com doações de sangue ou o que gostaria que melhorasse,
+            assim vamos poder ajudar muito mais.
           </p>
           <button class="button-signup">Opinar!</button>
         </div>
 
         <div class="share">
+          <b>
+            Vamos causar juntos? <br />
+            Você ainda pode apoiar este projeto apenas convidando seus amigos ou
+            conhecidos para conhecer.
+          </b>
           <div class="social">
+            <p>Compartilhe no</p>
             <ul class="social-links">
               <li>
-                <button class="button-whatsapp">
-                  <img
-                    src="../../../../public/icons/socialmedia/whatsapp.svg"
-                    alt=""
-                    height="20px"
-                  />
-                  WhatsApp
-                </button>
+                <a href="#">
+                  <button class="share-button btn-whatsapp">
+                    <img
+                      src="../../../../public/icons/socialmedia/whatsapp-v-white.svg"
+                      alt=""
+                      height="20px"
+                    />
+                    WhatsApp
+                  </button>
+                </a>
               </li>
 
               <li>
-                <button class="button-facebook">
-                  <img
-                    src="../../../../public/icons/socialmedia/facebook.svg"
-                    alt=""
-                    height="20px"
-                  />
-                  Facebook
-                </button>
+                <a href="#">
+                  <button class="share-button btn-facebook">
+                    <img
+                      src="../../../../public/icons/socialmedia/facebook-v-white.svg"
+                      alt=""
+                      height="20px"
+                    />
+                    Facebook
+                  </button>
+                </a>
               </li>
 
-              <li></li>
+              <li>
+                <a href="#">
+                  <button class="share-button btn-instagram">
+                    <img
+                      src="../../../../public/icons/socialmedia/instagram-v-white.svg"
+                      alt=""
+                      height="20px"
+                    />
+                    Instagram
+                  </button>
+                </a>
+              </li>
 
-              <li></li>
+              <li>
+                <a href="#">
+                  <button class="share-button btn-twitter">
+                    <img
+                      src="../../../../public/icons/socialmedia/twitter-v-white.svg"
+                      alt=""
+                      height="20px"
+                    />
+                    Twitter
+                  </button>
+                </a>
+              </li>
 
-              <li></li>
+              <li>
+                <a href="#">
+                  <button class="share-button btn-linkedin">
+                    <img
+                      src="../../../../public/icons/socialmedia/linkedin-v-white.svg"
+                      alt=""
+                      height="20px"
+                    />
+                    LinkedIn
+                  </button>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
-    </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+      <div class="brand">
+        <!-- Adicionar "img" com o logo dentro de "a" -->
+        <a href="#">DALE</a>
+        <p>Muito mais que apenas uma doação!</p>
+      </div>
+
+      <div class="social">
+        <p>Siga-nos:</p>
+        <ul class="social-links">
+          <li>
+            <img
+              src="../../../../public/icons/socialmedia/facebook.svg"
+              alt="Facebook"
+              class="social-media-img"
+            />
+            <p>Facebook</p>
+          </li>
+          <li>
+            <img
+              src="../../../../public/icons/socialmedia/instagram.svg"
+              alt="Instagram"
+              class="social-media-img"
+            />
+            <p>Instagram</p>
+          </li>
+          <li>
+            <img
+              src="../../../../public/icons/socialmedia/twitter.svg"
+              alt="Twitter"
+              class="social-media-img"
+            />
+            <p>Twitter</p>
+          </li>
+          <li>
+            <img
+              src="../../../../public/icons/socialmedia/linkedin.svg"
+              alt="LinkedIn"
+              class="social-media-img"
+            />
+            <p>Linkedin</p>
+          </li>
+        </ul>
+      </div>
+
+      <hr class="divider-solid" />
+
+      <div class="sections">
+        <div class="more-help-news">
+          <p class="bold">Saiba mais</p>
+
+          <ul class="links">
+            <li>Quem somos</li>
+            <li>Entrar em contato</li>
+            <li>Nossa equipe</li>
+            <li>Ajude a construir</li>
+          </ul>
+        </div>
+
+        <div class="more-help-news">
+          <p class="bold">Ajuda</p>
+
+          <ul class="links">
+            <li>Central de ajuda</li>
+            <li>Responsabilidade e Segurança</li>
+            <li>Termos de uso</li>
+            <li>Politica de privacidade</li>
+            <li>Créditos</li>
+          </ul>
+        </div>
+
+        <form class="more-help-news">
+          <label for="newsemail" class="bold">Assine nossa news</label>
+
+          <fieldset class="news-email">
+            <input
+              type="email"
+              name="newsemail"
+              id="newsemail"
+              placeholder="Digite seu e-mail"
+            />
+            <button type="submit">
+              <img
+                src="../../../../public/icons/resources/button-news.svg"
+                alt="Assinar newsletter"
+              />
+            </button>
+          </fieldset>
+        </form>
+      </div>
+
+      <div class="credit">
+        <p>Feito com <span class="love">♥</span> por TROPIA | 2021</p>
+      </div>
+    </footer>
   </body>
 </html>

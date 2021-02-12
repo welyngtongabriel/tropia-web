@@ -34,7 +34,6 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../../../../public/css/footer.css" />
 
     <!-- Importando jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -43,7 +42,6 @@
 
   <body>
     <!-- Navbar fixo -->
-
     <nav class="navbar fixed-top">
       <div class="nav">
         <div class="brand">
@@ -55,17 +53,17 @@
             <li><a href="#about-section" class="nav-link">O que é?</a></li>
             <li><a href="#resources-section" class="nav-link">Recursos</a></li>
             <li>
-              <a href="#support-us-section" class="nav-link nav-support-us"
-                >Apoie</a
-              >
+              <a href="#support-us-section" class="nav-link nav-support-us">
+                Apoie
+              </a>
             </li>
             <li>|</li>
             <li>
               <div class="nav-buttons">
                 <a href="#"><button class="button-login">Entrar</button></a>
-                <a href="./form-interessed.html"
-                  ><button class="button-signup">Inscreva-se</button></a
-                >
+                <a href="./form-interessed.html">
+                  <button class="button-signup">Inscreva-se</button>
+                </a>
               </div>
             </li>
           </ul>
@@ -74,15 +72,20 @@
     </nav>
 
     <main class="content">
-      <section class="back-region">
-        <button>
-          <img
-            src="../../../../public/icons/resources/indicator.svg"
-            alt="Seta para Voltar"
-          />
-          VOLTAR
-        </button>
+      <section>
+        <div class="back-region">
+          <button class="button-back">
+            <a href="./index.html">
+              <img
+                src="../../../../public/icons/resources/indicator.svg"
+                alt="Seta para Voltar"
+              />
+              VOLTAR
+            </a>
+          </button>
+        </div>
       </section>
+
       <section class="presentation">
         <div class="image-region">
           <img
@@ -115,7 +118,7 @@
 
             <hr class="divider-solid" />
 
-            <form>
+            <form class="form-register">
               <fieldset class="group">
                 <div class="field">
                   <label for="name">Qual é o seu nome?</label>
@@ -192,6 +195,7 @@
         </div>
       </section>
     </main>
+
     <!-- Rodapé -->
     <footer>
       <div class="brand">

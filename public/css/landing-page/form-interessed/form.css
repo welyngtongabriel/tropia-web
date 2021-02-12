@@ -1,4 +1,4 @@
-form {
+.form-register {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,11 +21,11 @@ form {
 
 label,
 a.terms {
-  font-family: "Inter", sans-serif;
+  /* font-family: "Inter", sans-serif;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 600; */
 
-  color: #696f79;
+  /* color: #696f79; */
   /* margin-bottom: 8px; */
 }
 
@@ -50,8 +50,8 @@ select {
 }
 
 em {
-  font-weight: 500;
-  font-size: 14px;
+  /* font-weight: 500;
+  font-size: 14px; */
 }
 
 .field-terms {
@@ -73,6 +73,6 @@ em {
 }
 
 a.terms {
-  color: #6c117b;
-  text-decoration: underline;
+  /* color: #6c117b;
+  text-decoration: underline; */
 }

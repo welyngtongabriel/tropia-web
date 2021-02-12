@@ -5,12 +5,12 @@
 
   background: #ffffff;
 
-  font-family: Montserrat;
+  /* font-family: Montserrat;
   font-weight: 500;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 22px; */
 
-  color: #6c117b;
+  /* color: #6c117b; */
 
   /* display: flex; */
   align-items: center;
@@ -37,12 +37,12 @@
 
   background: #6c117b;
 
-  font-family: Montserrat;
-  /* font-weight: 400; */
+  /* font-family: Montserrat;
+  /* font-weight: 400; *
   font-size: 18px;
-  line-height: 22px;
+  line-height: 22px; */
 
-  color: #fff;
+  /* color: #fff; */
 
   /* display: flex; */
   align-items: center;
@@ -69,12 +69,12 @@
   /* background: #70C217; */
   background: linear-gradient(0deg, #70C217, #70C217);
 
-  font-family: Montserrat;
+  /* font-family: Montserrat;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 18px; */
   line-height: 22px;
 
-  color: #fff;
+  /* color: #fff; */
   letter-spacing: 0.015em;
 
   border: 2px solid #70C217;
@@ -88,50 +88,68 @@
     cursor: pointer;
   }
 
-.button-whatsapp{
-  position: relative;
+.share-button{
   width: 120px;
   height: 30px;
 
   background: #2CA639;
 
-  font-family: Montserrat;
-  /* font-weight: 400; */
-  font-size: 18px;
+  /* font-family: Montserrat;
+  /* font-weight: 400;
+  font-size: 18px; */
   line-height: 22px;
+  /* color: #fff; */
 
-  color: #fff;
 
-  /* display: flex; */
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  text-align: center;
-  letter-spacing: 0.015em;
-
-  border: 2px solid #2CA639;
+  border: none;
   box-sizing: border-box;
   border-radius: 6px;
 }
 
-.button-facebook{
-  position: relative;
-  width: 120px;
-  height: 30px;
+.btn-whatsapp {
+  background-color: #2CA639;
+}
 
-  background: #3A5999;
+.btn-facebook {
+  background-color: #3A5999;
+}
 
-  font-family: Montserrat;
-  /* font-weight: 400; */
-  font-size: 18px;
-  line-height: 22px;
+.btn-instagram {
+  background-color: #DD2A7B;
+}
 
-  color: #fff;
+.btn-twitter {
+  background-color: #2AA9E0;
+}
 
-  /* display: flex; */
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.015em;
+.btn-linkedin {
+  background-color: #0077B5;
+}
 
-  border: 2px solid #3A5999;
-  box-sizing: border-box;
-  border-radius: 6px;
+.btn-whatsapp:hover {
+  background-color: #33c042;
+  cursor: pointer;
+}
+
+.btn-facebook:hover {
+  background-color: #4469b3;
+  cursor: pointer;
+}
+
+.btn-instagram:hover {
+  background-color: #f72f89;
+  cursor: pointer;
+}
+
+.btn-twitter:hover {
+  background-color: #30bdfa;
+  cursor: pointer;
+}
+
+.btn-linkedin:hover {
+  background-color: #0187cf;
+  cursor: pointer;
 }

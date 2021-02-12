@@ -44,34 +44,44 @@ img.spots {
 }
 
 h3 {
-  color: #303031;
+  /* color: #303031;
   font-family: "Ubuntu", sans-serif;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 30px; */
 }
 
 p {
-  color: #8692a6;
+  /* color: #8692a6;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 28px;
+  line-height: 28px; */
 }
 
 .back-region {
+  position: absolute;
+  z-index: 1;
+  top: 60px;
+  left: 90px;
 }
 
-.back-region button {
+.button-back {
   background-color: transparent;
   border: none;
+}
 
+.button-back a {
   display: flex;
   align-items: center;
 
-  font-family: "Inter", sans-serif;
+  /* font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 600;
-  color: #8692A6;
+  color: #8692a6; */
 
   grid-gap: 8px;
 }
+/* 
+a {
+  cursor: pointer;
+} */

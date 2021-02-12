@@ -1,44 +1,30 @@
-.fixed-top {
-  position: fixed;
-  z-index: 1;
-}
-
 .navbar {
-  background-color: #fafafa;
+  background-color: #f4f4f4;
   height: 75px;
-  width: 100%;
+  width: 100vw;
 
   display: flex;
   justify-content: center;
   /* align-items: center; */
 }
 
+.navbar-fixed {
+  position: fixed;
+  z-index: 1;
+}
+
 .nav {
   /* position: relative; */
+  width: 90%;
+  max-width: 1440px;
   height: 100%;
-  max-width: 1280px;
-  width: 95%;
+
   bottom: 0px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-/* @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"); */
-/* .brand-nav a {
-  /* position: absolute; *
-  width: 136px;
-  height: 55px;
-  left: 0px;
-
-  font-family: "Ubuntu", sans-serif;
-  line-height: 55.15px;
-  font-size: 48px;
-  font-weight: 700;
-
-  color: rgb(0, 0, 0);
-} */
 
 #navbarLinks {
   display: flex;
@@ -60,26 +46,25 @@
 }
 
 .nav-link {
-  font-family: Montserrat;
+  /* font-family: Montserrat;
   font-weight: 500;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 20px; */
+  /* color: #303030; */
   /* identical to box height */
 
   display: flex;
   align-items: center;
 
-  color: #303030;
-
   cursor: pointer;
 }
 
 .nav-support-us {
-  color: #70c217;
+  /* color: #70c217; */
 }
 
 .nav-link:hover {
-  color: #8f16a2;
+  /* color: #8f16a2; */
 }
 
 .nav-buttons {

@@ -6,10 +6,10 @@ footer {
   grid-gap: 40px;
 }
 
-footer p {
+/* footer p {
   color: #66645e;
   font-size: 18px;
-}
+} */
 
 .social {
   display: flex;
@@ -17,19 +17,20 @@ footer p {
   justify-content: center;
   align-items: center;
 
-  height: 25px;
+  height: 30px;
+}
 
-  grid-gap: 20px;
+.social p {
+  margin-right: 20px;
 }
 
 .social-links {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   height: 100%;
 
-  grid-gap: 15px;
+  grid-gap: 20px;
 }
 
 .social-links li {
@@ -39,9 +40,9 @@ footer p {
   align-items: center;
   height: 100%;
 
-  font-family: "Inter", sans-serif;
+  /* font-family: "Inter", sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 16px; */
 
   grid-gap: 5px;
 }
@@ -114,13 +115,13 @@ footer p {
 }
 
 .credit p {
-  font-weight: 500;
+  /* font-weight: 500; */
 }
 
 span.love {
-  font-weight: 600;
+  /* font-weight: 600;
   font-size: 24px;
-  color: #f2c94c;
+  color: #f2c94c; */
 }
 
 fieldset {

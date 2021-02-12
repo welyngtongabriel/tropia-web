@@ -1,0 +1,29 @@
+.content {
+  width: 90vw;
+  max-width: 810px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  grid-gap: 60px;
+
+  margin-top: 15vh;
+  margin-bottom: 50px;
+}
+
+.thanks, .share {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  grid-gap: 30px;
+}
+
+p, b {
+  text-align: center;
+}
+
+svg {
+    fill: rgb(51, 54, 207);
+}

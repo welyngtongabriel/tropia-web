@@ -32,22 +32,22 @@ header {
 }
 
 h1 {
-  font-family: "ubuntu", sans-serif;
+  /* font-family: "ubuntu", sans-serif;
   font-weight: bold;
   font-size: 64px;
-  line-height: 80px;
+  line-height: 80px; */
 
-  color: #303031, 100%;
+  /* color: #303031, 100%; */
 }
 
 .heading-description {
-  font-family: "Inter", sans-serif;
+  /* font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 24px; */
   line-height: 32px;
   letter-spacing: -0.02em;
 
-  color: #66645e;
+  /* color: #66645e; */
 }
 
 .interested-presentation {
@@ -81,10 +81,10 @@ h1 {
 }
 
 .scroll-down p {
-  color: #a9a9a9;
-  font-size: 16px;
+  /* color: #a9a9a9;
+  font-size: 16px; */
 }
 
 .bold {
-  font-weight: 600;
+  /* font-weight: 600; */
 }

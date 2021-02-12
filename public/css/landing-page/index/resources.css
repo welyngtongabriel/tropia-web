@@ -30,7 +30,7 @@
   align-items: center;
   text-align: center;
 
-  color: #000;
+  /* color: #000; */
 }
 
 .frame img {
@@ -38,7 +38,7 @@
 }
 
 .frame p {
-  color: #000;
+  /* color: #000; */
 }
 
 .interested-resources {
@@ -51,9 +51,9 @@
 
 .interested-resources p,
 b {
-  color: #66645e;
+  /* color: #66645e;
   font-family: "Inter", sans-serif;
-  font-size: 18px;
+  font-size: 18px; */
 
   text-align: right;
 
@@ -64,7 +64,7 @@ b {
 }
 
 .interested-resources b {
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 /* .button-interess {

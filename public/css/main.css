@@ -1,27 +1,24 @@
+/* Formatação Geral */
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
-  font-family: sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-
   list-style-type: none;
-  color: #303031;
+
+  font-family: sans-serif; /* Fonte padrão */
+  color: #303030; /* Cor padrão de todos os textos */
 }
 
 body {
-  font-family: sans-serif;
-
-  background-color: #fafafa;
+  background-color: #f4f4f4;
 }
 
 main,
 section,
 footer {
   width: 100%;
-  position: relative;
+  /* width: 100vw; /* mantém o mesmo largura da viewport (tela) */
+  /* position: relative; */
 
   display: flex;
   flex-direction: column;
@@ -33,7 +30,8 @@ main {
 }
 
 footer {
-  margin-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .brand {
