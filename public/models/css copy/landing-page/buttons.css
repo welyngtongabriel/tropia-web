@@ -1,21 +1,9 @@
-.button-login {
-  position: relative;
+/* .button-login {
   width: 130px;
   height: 40px;
 
   background: #ffffff;
 
-  /* font-family: Montserrat;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px; */
-
-  /* color: #6c117b; */
-
-  /* display: flex; */
-  align-items: center;
-  text-align: center;
-  /* letter-spacing: -0.015em; */
   letter-spacing: 0.015em;
 
   border: 2px solid #6c117b;
@@ -28,45 +16,25 @@
 .button-login:hover {
   background: #fdefff;
   cursor: pointer;
-}
+} *
 
-.button-signup {
-  position: relative;
-  height: 40px;
 
-  background: #6c117b;
 
-  /* display: flex; */
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.015em;
-
-  border: 2px solid #6c117b;
-  box-sizing: border-box;
-  border-radius: 6px;
-
-  padding: 5px 15px 5px 15px;
-}
-
-.button-signup:hover {
-  background: #8f16a2;
-  cursor: pointer;
-}
 
 .button-support-us {
   position: relative;
   width: 150px;
   height: 50px;
 
-  /* background: #70C217; */
+  /* background: #70C217; *
   background: linear-gradient(0deg, #70C217, #70C217);
 
   /* font-family: Montserrat;
   font-weight: 600;
-  font-size: 18px; */
+  font-size: 18px; *
   line-height: 22px;
 
-  /* color: #fff; */
+  /* color: #fff; *
   letter-spacing: 0.015em;
 
   border: 2px solid #70C217;
@@ -85,7 +53,13 @@
   height: 30px;
 
   background: #2CA639;
+
+  /* font-family: Montserrat;
+  /* font-weight: 400;
+  font-size: 18px; *
   line-height: 22px;
+  /* color: #fff; *
+
 
   display: flex;
   justify-content: space-evenly;
@@ -139,3 +113,4 @@
   background-color: #0187cf;
   cursor: pointer;
 }
+*/

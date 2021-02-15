@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html {
+  font-size: 62.5%;
+  /* ↑ A cada 1rem será considerado 10px: esta declaração controlará todas a propriedades do elementos filhos */
+
+  /* Um font-size com valor de 100% = 16px (padrão para navegadores = 12pt no word) */
+
+  /* 
+  `em` = multiplica os pixels declarados no elemento Superior ("a cada Pai")
+  `rem` = multiplica pelo valor definido no root (como por exemplo no "html/body")
+   */
+}
+
+html,
+body {
+  /* height: 100vh; */
+
+  background-color: #f4f4f4;
+
+  font-family: "Inter", sans-serif; /* Fonte padrão */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  /* font-size: 18px; */
+  font-size: 1.6rem; /* irá observar o valor do root em HTML e multiplicar*/
+
+  font-weight: 400; /* Espessura regular */
+
+  line-height: 2.6rem;
+  letter-spacing: 0.015em;
+  color: rgb(75, 75, 75); /* Cor padrão de todos os textos */
+}
+
+a {
+  font-weight: 600;
+}
+
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 74px;
+}
+
+h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 4.6rem;
+}
+
+h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 3.8rem;
+}
+
+.button {
+  transition: all 150ms linear 0s;
+}
+
+/* MEDIA QUERIES: irão analisar os breakpoints (modelo de dispositivo) para alterar o css */
+/* ↓ Aplica o css deste bloco até larguras da viewport máxima*/
+@media (max-width: 768px) {
+  html {
+    font-size: 50%; /* O tamanho do texto é alterado e todos os textos rem também seguem a proporção */
+  }
+}
