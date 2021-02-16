@@ -141,12 +141,13 @@ form.news button:hover {
 }
 
 span.love {
-  color: #f2c94c;
+  color: #ffd350;
   font-size: 2.2rem;
 }
 
-/* MEDIA QUERIES */
-
+/*===
+MEDIA QUERIES
+===*/
 @media (max-width: 560px) {
   .social-links {
     grid-template-columns: repeat(2, 1fr);

@@ -42,13 +42,13 @@ b {
 
 .button-opnion {
   display: inline-block;
-  background-color: #6c117b;
+  background-color: #7a3e98;
 
   /* width: 200px;
   height: 50px; */
   padding: 6px 40px;
 
-  border: 2px solid #6c117b;
+  border: 2px solid #763e97;
   box-sizing: border-box;
   border-radius: 40px;
 
@@ -60,7 +60,8 @@ b {
 }
 
 .button-opnion:hover {
-  background: #8f16a2;
+  background-color: #613a95;
+  border-color: #613a95;
   cursor: pointer;
 }
 
@@ -82,7 +83,6 @@ COMPARTILHAR
   width: 100%;
   display: grid;
 
-  /* grid-template-columns: repeat( 5, 1fr); */
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   /* ↑ o número de colunas é automatica baseado na largura minima da coluna e na quantidade de colunas (fr) */
   grid-gap: 15px;
@@ -161,9 +161,11 @@ COMPARTILHAR
   cursor: pointer;
 }
 
-/* MEDIA QUERIES */
-@media (min-width: 768px) {
+/*===
+MEDIA QUERIES
+===*/
+@media (max-width: 768px) {
   html {
-    /* font-size: 50%; O tamanho do texto é alterado e todos os textos rem também seguem a proporção */
+    font-size: 50%; /* O tamanho do texto é alterado e todos os textos rem também seguem a proporção */
   }
 }
