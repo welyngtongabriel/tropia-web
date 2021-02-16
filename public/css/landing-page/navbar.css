@@ -57,9 +57,6 @@ header img.brand-menu {
   background-color: #7a3e98;
 
   color: #fff;
-  font-family: "Inter", sans-serif;
-  /* font-size: 1.6rem; */
-  /* font-weight: 500; */
   letter-spacing: 0.05em;
 
   border: 2px solid #7a3e98;
@@ -136,8 +133,8 @@ MEDIA QUERIES
 
   .menu-section.on .menu-toggle {
     position: absolute;
-    right: 25px;
-    top: 15px;
+    right: 15px;
+    top: 10px;
   }
 
   .menu-section.on .menu-toggle .one {
@@ -186,5 +183,4 @@ MEDIA QUERIES
 
     margin-top: 15vh;
   }
-
 }

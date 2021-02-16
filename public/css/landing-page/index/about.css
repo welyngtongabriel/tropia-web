@@ -1,3 +1,7 @@
+#about {
+  margin: 50px auto;
+}
+/*
 #about-section {
   position: relative;
   width: 100%;
@@ -5,19 +9,19 @@
 
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  /* align-items: center; *
 
   overflow: hidden;
 }
 
 /* #about-section img {
   position: absolute;
-} */
+} *
 
 #about-section img.back-about {
   margin-top: 80px;
   /* max-width: 100%; */
-  /* min-width: 100%; */
+  /* min-width: 100%; *
   min-height: 545px;
 }
 
@@ -47,8 +51,8 @@ h2 {
   /* font-family: "Ubuntu", sans-serif;
   font-weight: bold;
   font-size: 32px;
-  line-height: 80px; */
-  /* color: #f2f2f2; */
+  line-height: 80px; *
+  /* color: #f2f2f2; *
 }
 
 .about-description p,
@@ -58,10 +62,11 @@ span {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  letter-spacing: -0.01em; */
+  letter-spacing: -0.01em; *
 }
 
 span {
   /* font-weight: 600;
-  color: #f2c94c; */
+  color: #f2c94c; *
 }
+*/

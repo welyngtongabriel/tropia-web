@@ -1,26 +1,23 @@
 .button-login {
-  position: relative;
-  width: 130px;
-  height: 40px;
+  /* width: 130px;
+  height: 40px; */
 
-  background: #ffffff;
+  background-color: #fff;
 
-  /* font-family: Montserrat;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px; */
-
-  /* color: #6c117b; */
-
-  /* display: flex; */
-  align-items: center;
+  color: #fff;
   text-align: center;
-  /* letter-spacing: -0.015em; */
-  letter-spacing: 0.015em;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-decoration: none;
 
-  border: 2px solid #6c117b;
+  border: 2px solid #7a3e98;
   box-sizing: border-box;
-  border-radius: 6px;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   cursor: pointer;
 }
@@ -31,25 +28,27 @@
 }
 
 .button-signup {
-  position: relative;
-  height: 40px;
+  background-color: #7a3e98;
 
-  background: #6c117b;
-
-  /* display: flex; */
-  align-items: center;
+  color: #fff;
   text-align: center;
-  letter-spacing: 0.015em;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-decoration: none;
 
-  border: 2px solid #6c117b;
+  border: 2px solid #7a3e98;
   box-sizing: border-box;
-  border-radius: 6px;
+  border-radius: 5px;
 
-  padding: 5px 15px 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-signup:hover {
-  background: #8f16a2;
+  background-color: #613a95;
+  border-color: #613a95;
   cursor: pointer;
 }
 
@@ -59,7 +58,7 @@
   height: 50px;
 
   /* background: #70C217; */
-  background: linear-gradient(0deg, #70C217, #70C217);
+  background: linear-gradient(0deg, #70c217, #70c217);
 
   /* font-family: Montserrat;
   font-weight: 600;
@@ -69,22 +68,22 @@
   /* color: #fff; */
   letter-spacing: 0.015em;
 
-  border: 2px solid #70C217;
+  border: 2px solid #70c217;
   box-sizing: border-box;
   border-radius: 6px;
 }
 
 .button-support-us:hover {
-    background: #2FDF84;
-    border-color: #2FDF84;
-    cursor: pointer;
-  }
+  background: #2fdf84;
+  border-color: #2fdf84;
+  cursor: pointer;
+}
 
-.share-button{
+.share-button {
   width: 120px;
   height: 30px;
 
-  background: #2CA639;
+  background: #2ca639;
   line-height: 22px;
 
   display: flex;
@@ -96,23 +95,23 @@
 }
 
 .btn-whatsapp {
-  background-color: #2CA639;
+  background-color: #2ca639;
 }
 
 .btn-facebook {
-  background-color: #3A5999;
+  background-color: #3a5999;
 }
 
 .btn-instagram {
-  background-color: #DD2A7B;
+  background-color: #dd2a7b;
 }
 
 .btn-twitter {
-  background-color: #2AA9E0;
+  background-color: #2aa9e0;
 }
 
 .btn-linkedin {
-  background-color: #0077B5;
+  background-color: #0077b5;
 }
 
 .btn-whatsapp:hover {

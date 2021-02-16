@@ -6,13 +6,6 @@ main {
 /*===
 AGRADECIMENTO
 ===*/
-.container {
-  width: 90%;
-  max-width: 980px;
-
-  margin-right: auto;
-  margin-left: auto;
-}
 
 .container > section {
   max-width: 830px;
