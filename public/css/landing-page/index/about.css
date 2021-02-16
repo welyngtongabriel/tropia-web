@@ -1,72 +1,83 @@
 #about {
-  margin: 50px auto;
+  margin: 60px auto;
+
+  /* overflow: hidden; */
 }
-/*
-#about-section {
+
+#about > img {
+  position: absolute;
+
+  /* width: 100%; */
+}
+
+#about .background {
   position: relative;
+  background-color: #1e9ab5;
+  background-color: #7a3e98;
+  transform: skewY(3deg);
+}
+
+#about .background:before {
+  content: "";
+  display: block;
+  position: absolute;
   width: 100%;
-  height: 625px;
+  height: 100px;
+  background-color: #7a3e98;
+  left: 0px;
+  bottom: -30px;
 
-  display: flex;
-  justify-content: center;
-  /* align-items: center; *
-
-  overflow: hidden;
+  transform: skewY(-3deg);
+  /* border-radius: 100% 50%; */
 }
 
-/* #about-section img {
-  position: absolute;
-} *
-
-#about-section img.back-about {
-  margin-top: 80px;
-  /* max-width: 100%; */
-  /* min-width: 100%; *
-  min-height: 545px;
-}
-
-.about {
-  position: absolute;
-  max-width: 1280px;
-  width: 90%;
+#about .container {
+  position: relative;
 
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  align-items: flex-end;
 
-  padding-bottom: 60px;
+  transform: skewY(-3deg);
 }
 
-.about-description {
-  max-width: 705px;
+#about .about-description {
+  display: flex;
+  flex-direction: column;
+
+  width: 65%;
+  max-width: 710px;
+  margin-top: 70px;
+  margin-bottom: 120px;
+
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #fff;
 }
 
-.about img {
-  margin-bottom: 60px;
+#about .about-description p {
+  margin-top: 10px;
 }
 
-h2 {
-  /* font-family: "Ubuntu", sans-serif;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 80px; *
-  /* color: #f2f2f2; *
+#about .about-description p > span {
+  font-weight: 600;
+  color: #ffd350;
 }
 
-.about-description p,
-span {
-  /* color: #f2f2f2;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
-  letter-spacing: -0.01em; *
+#about .container img {
+  position: absolute;
+  top: -60px;
+  right: 0px;
 }
 
-span {
-  /* font-weight: 600;
-  color: #f2c94c; *
+@media (max-width: 700px) {
+  #about .about-description {
+    width: 100%;
+
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  #about .container img {
+    display: none;
+  }
 }
-*/
