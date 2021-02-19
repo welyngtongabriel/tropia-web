@@ -1,6 +1,144 @@
+#resources {
+  margin-bottom: 0px;
+  padding-top: 85px;
+}
+
+#resources img {
+  width: 134px;
+  height: 134px;
+}
+
+#resources .resource-list {
+  display: grid;
+  justify-content: center;
+  gap: 24px 16px;
+  grid-template-columns: repeat(6, 1fr);
+
+  padding: 48px 96px;
+}
+
+.frames {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.frames h3 {
+  max-width: 180px;
+
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Interested */
+main > div.container .interest {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+main > div.container .interest p {
+  text-align: right;
+
+  max-width: 320px;
+  margin-right: 30px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 680px) {
+  #resources .container {
+    width: 100vw;
+  }
+
+  #resources .resource-list {
+    display: flex;
+    justify-content: flex-start;
+
+    grid-template-columns: none;
+    gap: initial;
+
+    width: 100%;
+    padding: 48px 28px;
+
+    overflow-x: auto;
+    /* https://css-tricks.com/pure-css-horizontal-scrolling/ */
+
+    scroll-snap-type: x mandatory;
+    /* ↑ leva o scroll no eixo x automaticamente para o próximo item quando
+    a bara de rolagem ultrapasssar metado do item anterior
+    ** É necessário que o item filho refencie onde o scrool deve ir */
+    -webkit-overflow-scrolling: touch; /* garantir que funcione em alguns dispositivos */
+    scroll-behavior: smooth;
+  }
+
+  #resources .resource-list .frames {
+    /* min-width: 70%; */
+    flex: none; /* desabilita opções de dimensões exigidas pelo "Pai"*/
+    width: 75%;
+
+    scroll-snap-align: center;
+    /* ↑ o scrool correrá até a posição do item (start, center...)*/
+    pointer-events: none; /* bloqueia os eventos do mouse */
+  }
+
+  .frames p {
+    max-width: 160px;
+  }
+
+  main > div.container .interest {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main > div.container .interest p {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 681px) {
+  #resources .resource-list {
+    padding: 48px;
+  }
+
+  .fr-1 {
+    grid-area: auto / 1 / auto / 3;
+  }
+
+  .fr-2 {
+    grid-area: auto / 3 / auto / 5;
+  }
+
+  .fr-3 {
+    grid-area: auto / 5 / auto / 7;
+  }
+
+  .fr-4 {
+    grid-area: auto / 2 / auto / 4;
+  }
+
+  .fr-5 {
+    grid-area: auto / 4 / auto / 6;
+  }
+}
+
+@media (min-width: 1152px) {
+  #resources .resource-list {
+    padding: 48px 126px;
+  }
+}
+
+/*
 .resources {
-  /* max-width: 830px; */
-  /* height: 525px; */
+  /* max-width: 830px; *
+  /* height: 525px; *
 
   display: flex;
   flex-direction: column;
@@ -17,12 +155,12 @@
   justify-content: center;
   align-items: center;
 
-  /* margin-top: 15px; */
+  /* margin-top: 15px; *
   grid-gap: 140px;
 }
 .frame {
   width: 176px;
-  /* height: 232px; */
+  /* height: 232px; *
 
   display: flex;
   flex-direction: column;
@@ -30,7 +168,7 @@
   align-items: center;
   text-align: center;
 
-  /* color: #000; */
+  /* color: #000; *
 }
 
 .frame img {
@@ -38,7 +176,7 @@
 }
 
 .frame p {
-  /* color: #000; */
+  /* color: #000; *
 }
 
 .interested-resources {
@@ -53,7 +191,7 @@
 b {
   /* color: #66645e;
   font-family: "Inter", sans-serif;
-  font-size: 18px; */
+  font-size: 18px; *
 
   text-align: right;
 
@@ -64,7 +202,7 @@ b {
 }
 
 .interested-resources b {
-  /* font-weight: bold; */
+  /* font-weight: bold; *
 }
 
 /* .button-interess {

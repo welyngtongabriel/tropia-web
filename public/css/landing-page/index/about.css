@@ -1,6 +1,6 @@
 #about {
-  margin: 60px auto;
-
+  margin: 0px auto;
+  padding-top: 110px;
   /* overflow: hidden; */
 }
 
@@ -14,6 +14,7 @@
   position: relative;
   background-color: #1e9ab5;
   background-color: #7a3e98;
+  background-color: var(--color-purple-pri);
   transform: skewY(3deg);
 }
 
@@ -24,6 +25,7 @@
   width: 100%;
   height: 100px;
   background-color: #7a3e98;
+  background-color: var(--color-purple-pri);
   left: 0px;
   bottom: -30px;
 
@@ -49,7 +51,6 @@
   margin-top: 70px;
   margin-bottom: 120px;
 
-  font-size: 1.6rem;
   line-height: 2.6rem;
   color: #fff;
 }
@@ -68,6 +69,8 @@
   top: -60px;
   right: 0px;
 }
+
+/* MEDIA QUERIES */
 
 @media (max-width: 700px) {
   #about .about-description {

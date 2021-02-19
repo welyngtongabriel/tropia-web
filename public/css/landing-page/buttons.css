@@ -1,3 +1,28 @@
+.button {
+  max-width: 250px;
+  max-height: 50px;
+
+  padding: 12px;
+
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 3px solid;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .button-login {
   /* width: 130px;
   height: 40px; */
@@ -27,56 +52,31 @@
   cursor: pointer;
 }
 
-.button-signup {
+.button-subscribe {
   background-color: #7a3e98;
+  /* border-color: #7a3e98; */
+  border: none;
 
   color: #fff;
-  text-align: center;
-  font-size: 1.8rem;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  text-decoration: none;
-
-  border: 2px solid #7a3e98;
-  box-sizing: border-box;
-  border-radius: 5px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.button-signup:hover {
+.button-subscribe:hover {
   background-color: #613a95;
-  border-color: #613a95;
-  cursor: pointer;
 }
 
 .button-support-us {
-  position: relative;
   width: 150px;
-  height: 50px;
 
-  /* background: #70C217; */
   background: linear-gradient(0deg, #70c217, #70c217);
+  border: none;
 
-  /* font-family: Montserrat;
-  font-weight: 600;
-  font-size: 18px; */
   line-height: 22px;
-
-  /* color: #fff; */
+  color: #fff;
   letter-spacing: 0.015em;
-
-  border: 2px solid #70c217;
-  box-sizing: border-box;
-  border-radius: 6px;
 }
 
 .button-support-us:hover {
   background: #2fdf84;
-  border-color: #2fdf84;
-  cursor: pointer;
 }
 
 .share-button {
