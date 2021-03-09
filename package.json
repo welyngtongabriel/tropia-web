@@ -4,6 +4,7 @@
   "description": "Somos uma startup Socialtech com o objetivo de desburocratizar e facilitar processos de doações proporcionando as pessoas e empresas mais facilidade de conexão com causas sociais e ambientais.",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/welyngtongabriel/tropia-web/issues"
   },
-  "homepage": "https://github.com/welyngtongabriel/tropia-web#index"
+  "homepage": "https://github.com/welyngtongabriel/tropia-web#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }

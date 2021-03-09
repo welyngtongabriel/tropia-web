@@ -2,7 +2,7 @@
 
 const pages = {
 // module.exports = {
-  landing_launch: "./src/views/landing-launch/pages/index.html",
+  landing_launch: "./views/landing-launch/pages/index.html",
 };
 
 export default pages;
