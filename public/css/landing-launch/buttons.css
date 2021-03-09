@@ -53,21 +53,23 @@
 }
 
 .button-subscribe {
-  background-color: #7a3e98;
-  /* border-color: #7a3e98; */
+  background-color: var(--color-purple);
+  /* background-color: var(--color-pink); */
   border: none;
 
   color: #fff;
 }
 
 .button-subscribe:hover {
-  background-color: #613a95;
+  background-color: var(--color-purple-lighter);
+  /* background-color: var(--color-pink-dark); */
+  /* filter: brightness(90%); */
 }
 
 .button-support-us {
   width: 150px;
 
-  background: linear-gradient(0deg, #70c217, #70c217);
+  background: var(--color-green);
   border: none;
 
   line-height: 22px;
@@ -76,7 +78,7 @@
 }
 
 .button-support-us:hover {
-  background: #2fdf84;
+  background: var(--color-green-lighter);
 }
 
 .share-button {

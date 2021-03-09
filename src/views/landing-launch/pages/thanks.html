@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- ↑ width = largura do dispositivo -->
 
-    <title>TROPIA | Doe de Graça</title>
+    <title>TROPIA | Obrigado</title>
 
     <!-- FONTES -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -19,14 +19,18 @@
     />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../../../../public/css/default.css" />
+    <link rel="stylesheet" href="../../../../public/css/global.css" />
     <link
       rel="stylesheet"
-      href="../../../../public/css/landing-page/navbar.css"
+      href="../../../../public/css/landing-launch/navbar.css"
     />
     <link
       rel="stylesheet"
-      href="../../../../public/css/landing-page/thanks/thanks.css"
+      href="../../../../public/css/landing-launch/buttons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../../public/css/landing-launch/thanks/thanks.css"
     />
     <link rel="stylesheet" href="../../../../public/css/footer.css" />
   </head>
@@ -34,7 +38,7 @@
   <body>
     <!-- Navbar fixo -->
     <header id="navbar" class="fixed-top">
-      <div class="nav-bar">
+      <div class="container">
         <a href="./index.html">
           <img
             src="../../../../public/images/logo-black.svg"
@@ -46,20 +50,24 @@
           <div class="menu-toggle">
             <div class="one"></div>
             <div class="two"></div>
-            <div class="three"></div>
+            <!-- <div class="three"></div> -->
           </div>
           <nav>
             <ul class="navbar-nav">
-              <li><a href="./index.html#about-section">O que é?</a></li>
-              <li><a href="./index.html#resources-section">Recursos</a></li>
+              <li><a href="./index.html#about">O que é?</a></li>
+              <li><a href="./index.html#resources">Recursos</a></li>
               <li>
-                <a href="./index.html#support-us-section" id="nav-support-us">
+                <a href="./index.html#support-us" id="nav-support-us">
                   Apoie
                 </a>
               </li>
+              <li><a href="./index.html#">Para Hemocentros</a></li>
               <li class="divisor-menu">|</li>
               <li>
-                <a href="#" id="" class="button button-subscribe"
+                <a
+                  href="./form.html"
+                  id=""
+                  class="button button-subscribe"
                   >Inscreva-se</a
                 >
               </li>
@@ -75,8 +83,8 @@
         <section>
           <h3>Obrigado por se inscrever ;)</h3>
           <p>
-            Assim que a plataforma for lançada em breve te avisaremos de
-            primeira para ter uma vida com menos burocracia e praticar ainda
+            Assim que a plataforma for lançada em breve te avisaremos em
+            primeira mão para ter uma vida com menos burocracia e praticar ainda
             mais sua solidariedade.
             <br /><br />
             <b>Enquanto isso, queremos te ouvir!</b> Conta pra gente suas
@@ -208,7 +216,7 @@
                   alt="LinkedIn"
                   class="social-media-img"
                 />
-                Linkedin
+                LinkedIn
               </a>
             </li>
           </ul>
@@ -235,7 +243,7 @@
               <li><a href="#">Central de ajuda</a></li>
               <li><a href="#">Responsabilidade e Segurança</a></li>
               <li><a href="#">Termos de uso</a></li>
-              <li><a href="#">Politica de privacidade</a></li>
+              <li><a href="#">Política de privacidade</a></li>
               <li><a href="#">Créditos</a></li>
             </ul>
           </div>
@@ -257,6 +265,8 @@
                 />
               </button>
             </fieldset>
+
+            <p>Assine e receba boas notícias diretamente no seu e-mail.</p>
           </form>
         </div>
 

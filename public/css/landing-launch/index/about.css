@@ -1,20 +1,29 @@
 #about {
   margin: 0px auto;
   padding-top: 110px;
-  /* overflow: hidden; */
+
+  font-weight: 400;
 }
 
 #about > img {
   position: absolute;
-
-  /* width: 100%; */
 }
 
 #about .background {
   position: relative;
-  background-color: #1e9ab5;
-  background-color: #7a3e98;
-  background-color: var(--color-purple-pri);
+
+  background-image: linear-gradient(
+    40deg,
+    var(--color-purple) 15%,
+    var(--color-purple-lighter) 60%
+  );
+
+  /* background-image: linear-gradient(
+    40deg,
+    var(--color-pink-dark) 5%,
+    var(--color-pink) 50%
+  ); */
+
   transform: skewY(3deg);
 }
 
@@ -24,8 +33,19 @@
   position: absolute;
   width: 100%;
   height: 100px;
-  background-color: #7a3e98;
-  background-color: var(--color-purple-pri);
+
+  background-image: linear-gradient(
+    160deg,
+    var(--color-purple) 15%,
+    var(--color-purple-lighter) 60%
+  );
+
+  /* background-image: linear-gradient(
+    160deg,
+    var(--color-pink-dark) 5%,
+    var(--color-pink) 50%
+  ); */
+
   left: 0px;
   bottom: -30px;
 

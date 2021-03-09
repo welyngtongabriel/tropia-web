@@ -1,0 +1,160 @@
+#banner {
+  padding-top: 12vh;
+
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+section#banner .container {
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+}
+
+section#banner .container h2,
+b {
+  margin-top: 24px;
+
+  font-family: "Inter",sans-serif;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+section#banner .container h2 {
+  font-weight: 500;
+}
+
+section#banner .container > div {
+  margin-right: 30px;
+}
+
+section#banner .container img {
+  width: 708px;
+  height: 543px;
+
+  margin-left: 60px;
+  border-radius: 80px;
+  transition: all 250ms linear 0s;
+}
+
+section#banner .interest,
+.scroll-down {
+  display: flex;
+  flex-direction: column;
+}
+
+section#banner .button-subscribe {
+  margin-top: 14px;
+  font-size: 1.8rem;
+}
+
+section#banner .scroll-down {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+
+  color: #828282;
+}
+
+/*=== MEDIA QUERIES*/
+
+@media (min-width: 1152px) {
+  section#banner .container img {
+    /* order: -1; */
+
+    width: 568px;
+    height: 440px;
+
+    margin: 0px;
+    border-radius: 15px;
+
+    object-fit: cover;
+    object-position: center;
+
+    /* box-shadow: 0 0 0.6em #ff8b8f; */
+  }
+}
+
+@media (max-width: 1024px) {
+  section#banner .container img {
+    /* order: -1; */
+
+    width: 468px;
+    height: 540px;
+
+    margin: 0px;
+    border-radius: 15px;
+
+    object-fit: cover;
+    object-position: 0%;
+  }
+}
+
+@media (max-width: 890px) {
+  section#banner .container img {
+    width: 508px;
+    height: 389px;
+  }
+}
+
+@media (max-width: 768px) {
+  section#banner .container img {
+    /* order: -1; */
+
+    width: 288px;
+    height: 368px;
+  }
+}
+
+@media (min-height: 720px) {
+  section#banner {
+    min-height: 88vh;
+  }
+}
+
+@media (max-width: 550px) {
+  section#banner {
+    margin: 0px;
+    padding-top: 5vh;
+  }
+
+  section#banner .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section#banner .container > div {
+    margin: 0px;
+    padding-top: 5vh;
+
+    position: relative;
+    /* top: -25px; */
+  }
+
+  section#banner .container img {
+    order: -1;
+
+    width: 188px;
+    height: 258px;
+  }
+}
+
+@media (max-width: 425px) {
+  section#banner .container div {
+    align-items: center;
+  }
+
+  section#banner .container {
+    text-align: center;
+  }
+
+  section#banner .button-signup {
+    margin-top: 14px;
+
+    height: 40px;
+    width: 180px;
+  }
+}

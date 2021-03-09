@@ -15,18 +15,16 @@
 .field {
   display: flex;
   flex-direction: column;
-  /* align-items: left; */
   width: 100%;
+  margin-bottom: 20px;
 }
 
-label,
-a.terms {
-  /* font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-weight: 600; */
+.form-region label {
+  font-weight: 500;
+}
 
-  /* color: #696f79; */
-  /* margin-bottom: 8px; */
+.form-region em {
+  font-size: 1.2rem;
 }
 
 .field input,
@@ -37,21 +35,28 @@ select {
   top: 0px;
 
   background: #ffffff;
-  border: 1px solid #c4c4c4;
+  border: 1px solid #1565d8;
   box-sizing: border-box;
   border-radius: 6px;
-  border-color: #1565d8;
 
   padding-left: 15px;
   padding-right: 15px;
 
   margin-top: 10px;
-  margin-bottom: 25px;
 }
 
-em {
-  /* font-weight: 500;
-  font-size: 14px; */
+.field div.locality {
+  display: flex;
+}
+
+.field div.locality .state {
+  margin-right: 15px;
+  width: 100px;
+}
+
+.field input:focus,
+select:focus {
+  border: 2px inset rgb(118, 118, 118);
 }
 
 .field-terms {
@@ -60,19 +65,26 @@ em {
   justify-content: center;
   align-items: center;
 
-  grid-gap: 12px;
-
   height: 20px;
   margin-top: 20px;
   margin-bottom: 15px;
 }
 
+.field-terms label {
+  cursor: pointer;
+  margin-left: 12px;
+}
+
 .checkbox {
   width: 20px;
   height: 20px;
+
+  cursor: pointer;
 }
 
-a.terms {
-  /* color: #6c117b;
-  text-decoration: underline; */
+@media (min-width: 1152px) {
+  .field input:focus,
+  select:focus {
+    border: 3px inset rgb(92, 92, 92);
+  }
 }

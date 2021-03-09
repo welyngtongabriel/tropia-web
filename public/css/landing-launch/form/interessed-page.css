@@ -1,0 +1,82 @@
+section {
+  padding: 6vh 0px 80px;
+}
+
+section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.form-region {
+  min-width: 300px;
+  max-width: 430px;
+}
+
+.form-region div.choice div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-region div.choice button.active {
+  
+}
+
+
+.form-region hr {
+  width: 100%;
+}
+
+section .image-region {
+  position: relative;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  width: 60%;
+  height: 100%;
+  max-width: 700px;
+
+  margin-right: 40px;
+}
+
+.image-region #banner-blood {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+
+  overflow: hidden;
+}
+
+.image-region #circle {
+  position: absolute;
+  right: 440px;
+  bottom: 460px;
+  z-index: 0;
+}
+
+.image-region #spots {
+  position: absolute;
+  right: 190px;
+  bottom: 590px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 650px) {
+  
+  section .container {
+    justify-content: center;
+
+    width: 100%;
+  }
+
+  div.image-region {
+    display: none;
+  }
+
+  section .form-region {
+    width: 90%;
+    min-width: 200px;
+  }
+}

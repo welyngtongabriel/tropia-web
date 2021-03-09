@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TROPIA | Seja avisado</title>
+
+    <link rel="stylesheet" href="../../../../public/css/global.css" />
+    <link
+      rel="stylesheet"
+      href="../../../../public/css/landing-launch/navbar.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../../public/css/landing-launch/buttons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../../public/css/landing-launch/form/form.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../../public/css/landing-launch/form/interessed-page.css"
+    />
+    <link rel="stylesheet" href="../../../../public/css/footer.css" />
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar fixo -->
+    <header id="navbar" class="fixed-top">
+      <div class="container">
+        <a href="./index.html">
+          <img
+            src="../../../../public/images/logo-black.svg"
+            class="brand-menu"
+            alt="Logo da TROPIA"
+          />
+        </a>
+        <div class="menu-section">
+          <div class="menu-toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <!-- <div class="three"></div> -->
+          </div>
+          <nav>
+            <ul class="navbar-nav">
+              <li><a href="./index.html#about">O que é?</a></li>
+              <li><a href="./index.html#resources">Recursos</a></li>
+              <li>
+                <a href="./index.html#support-us" id="nav-support-us">
+                  Apoie
+                </a>
+              </li>
+              <li><a href="./index.html#">Para Hemocentros</a></li>
+              <li class="divisor-menu">|</li>
+              <li>
+                <a
+                  href="./form.html"
+                  id=""
+                  class="button button-subscribe"
+                  >Inscreva-se</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Conteúdo da página -->
+    <section>
+      <div class="container">
+        <div class="image-region">
+          <img
+            id="circle"
+            src="../../../../public/icons/resources/circle.svg"
+            alt=""
+          />
+          <img
+            id="banner-blood"
+            src="../../../../public/images/blood-donor-nurse.png"
+            alt="Doador de sangue"
+            width="835px"
+            height="640px"
+          />
+          <img
+            id="spots"
+            src="../../../../public/icons/resources/spots-small.svg"
+            alt=""
+          />
+        </div>
+        <main class="form-region">
+          <div>
+            <div class="choice">
+              <div>
+                <h3>Bora lá!</h3>
+                <div class="choice-buttons">
+                  <button class="user active">Sou doador</button>
+                  <button class="business">Sou Hemocentro</button>
+                </div>
+              </div>
+              <p>
+                Estamos trabalhando para lançar em breve e você pode ser um dos
+                primeiros a experimentar.
+              </p>
+            </div>
+
+            <hr class="divider-solid" />
+
+            <form class="form-register" action="" method="">
+              <fieldset class="group">
+                <div class="field">
+                  <label for="name">Qual é o seu nome?</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Digite seu nome"
+                    required
+                  />
+                </div>
+
+                <div class="field">
+                  <label for="email">Qual teu e-mail?</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="soudemais@email.com"
+                    required
+                  />
+                </div>
+
+                <div class="field">
+                  <label for="phone"
+                    >Número de telefone
+                    <em>(Não se preocupe, não vamos te ligar)</em></label
+                  >
+                  <input
+                    type="phone"
+                    name="phone"
+                    id="phone"
+                    placeholder="(DDD) 8.8888-8888"
+                    maxlength="11"
+                    required
+                  />
+                </div>
+              </fieldset>
+
+              <div class="field">
+                <strong>Onde você faz doações (ou pretende)?</strong>
+                <div class="locality">
+                  <div class="state">
+                    <label for="state">Estado</label>
+                    <select name="state" id="state" required>
+                      <option selected disable value="">UF</option>
+                      <option value="">PR</option>
+                      <option value="">SC</option>
+                      <option value="">SP</option>
+                    </select>
+                  </div>
+                  <div class="city">
+                    <label for="city">Cidade?</label>
+                    <select name="city" id="city" required>
+                      <option selected disable value="">
+                        Selecione sua cidade maravilhosa
+                      </option>
+                      <option value="">Curitiba</option>
+                      <option value="">Ponta Grossa</option>
+                      <option value="">Curitibanos</option>
+                      <option value="">Umuarama</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field-terms">
+                <label for="terms"
+                  >Aceito os <a href="#" class="terms">Termos</a> e
+                  <a href="#" class="terms">Condições</a></label
+                >
+                <input
+                  type="checkbox"
+                  name="terms"
+                  id="terms"
+                  class="checkbox"
+                  required
+                />
+              </div>
+
+              <button
+                type="submit"
+                class="button button-subscribe"
+                style="width: 250px; height: 60px"
+              >
+                Quero ser avisado
+              </button>
+            </form>
+          </div>
+        </main>
+      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+      <div class="footer-wrapper">
+        <div class="brand">
+          <a href="#">
+            <img
+              src="../../../../public/images/logo-white.svg"
+              alt="Logo da TROPIA"
+            />
+          </a>
+          <p>Muito mais que apenas uma doação!</p>
+        </div>
+
+        <div class="social-network">
+          <p>Siga-nos:</p>
+          <ul class="social-links">
+            <li>
+              <a href="#">
+                <img
+                  src="../../../../public/icons/socialmedia/facebook.svg"
+                  alt="Facebook"
+                  class="social-media-img"
+                />
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="../../../../public/icons/socialmedia/instagram.svg"
+                  alt="Instagram"
+                  class="social-media-img"
+                />
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="../../../../public/icons/socialmedia/twitter.svg"
+                  alt="Twitter"
+                  class="social-media-img"
+                />
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="../../../../public/icons/socialmedia/linkedin.svg"
+                  alt="LinkedIn"
+                  class="social-media-img"
+                />
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <hr class="divider-solid" />
+
+        <div class="sections">
+          <div>
+            <b>Saiba mais</b>
+
+            <ul class="links">
+              <li><a href="#">Quem somos</a></li>
+              <li><a href="#">Entrar em contato</a></li>
+              <li><a href="#">Nossa equipe</a></li>
+              <li><a href="#">Ajude a construir</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <b>Ajuda</b>
+
+            <ul class="links">
+              <li><a href="#">Central de ajuda</a></li>
+              <li><a href="#">Responsabilidade e Segurança</a></li>
+              <li><a href="#">Termos de uso</a></li>
+              <li><a href="#">Política de privacidade</a></li>
+              <li><a href="#">Créditos</a></li>
+            </ul>
+          </div>
+
+          <form class="news">
+            <label for="newsletter"><b>Assine nossa news</b></label>
+
+            <fieldset>
+              <input
+                type="email"
+                name="newsletter"
+                id="newsletter"
+                placeholder="Digite seu e-mail"
+              />
+              <button type="submit" title="Inscrever e-mail">
+                <img
+                  src="../../../../public/icons/resources/button-news.svg"
+                  alt="Assinar newsletter"
+                />
+              </button>
+            </fieldset>
+
+            <p>Assine e receba boas notícias diretamente no seu e-mail.</p>
+          </form>
+        </div>
+
+        <div class="credit">
+          <p>Feito com <span class="love">♥</span> por TROPIA | 2021</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+
+    <!-- Importando jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+
+    <!-- SCRIPTS -->
+    <!-- Script para formatar celular -->
+    <script type="text/javascript">
+      $("#phone").mask("(00) 0.0000-0000");
+    </script>
+    <script src="../../../../public/scripts/responsive-menu.js"></script>
+  </body>
+</html>

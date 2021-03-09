@@ -6,11 +6,20 @@
 }
 
 :root {
-  --color-purple-pri: #653A96;
-  --color-purple-sec: #7A3E98;
-  --color-purple-hover: #613A95;
-  --color-yellow: #FFD350;
+  --color-purple: #653a96;
+  --color-purple-darker: #8f16a2;
+  --color-purple-lighter: #7a3e98;
 
+  --color-yellow: #ffd350;
+  --color-yellow-lighter: #fae86d;
+
+  --color-pink: #db1f73;
+  --color-pink-dark: #b4135a;
+  --color-pink-medium: #ff5ed0;
+  --color-pink-lighter: #fa8cc5;
+
+  --color-green: #70c217;
+  --color-green-lighter: #81e21a;
 }
 
 html {
@@ -39,7 +48,7 @@ body {
 body {
   font-size: 1.6rem; /* irá observar o valor do root em HTML e multiplicar*/
 
-  font-weight: 400; /* Espessura regular */
+  font-weight: 500; /* Espessura */
 
   line-height: 2.6rem;
   letter-spacing: 0.025em;
@@ -78,7 +87,6 @@ h3 {
   font-weight: 700;
   line-height: 3.8rem;
 }
-
 
 /* MEDIA QUERIES: irão analisar os breakpoints (modelo de dispositivo) para alterar o css */
 /* ↓ Aplica o css deste bloco até larguras da viewport máxima*/
