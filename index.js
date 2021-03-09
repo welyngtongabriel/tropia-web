@@ -1,6 +1,5 @@
-// import Page from "./views/pages.js";
 import pages from "./pages.js";
-// const pages = require("./pages.js");
+
 
 console.log(pages.landing_launch);
 
