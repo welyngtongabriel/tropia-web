@@ -10,6 +10,19 @@
   z-index: 100;
 }
 
+#navbar .in-production {
+  background-color: black;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.25rem;
+}
+
 header .container {
   display: flex;
   justify-content: space-between;
