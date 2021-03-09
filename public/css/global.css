@@ -92,13 +92,23 @@ h3 {
 /* ↓ Aplica o css deste bloco até larguras da viewport máxima*/
 @media (max-width: 890px) {
   html {
-    font-size: 50%; /* O tamanho do texto é alterado e todos os textos rem também seguem a proporção */
+    font-size: 60%; /* O tamanho do texto é alterado e todos os textos rem também seguem a proporção */
   }
 }
 
 @media (max-width: 550px) {
   html {
-    font-size: 40%;
+    font-size: 55%;
+  }
+
+  h1 {
+    font-size: 3.8rem;
+    line-height: 4.8rem;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+    line-height: 3.8rem;
   }
 }
 

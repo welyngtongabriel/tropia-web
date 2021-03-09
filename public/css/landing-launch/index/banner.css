@@ -10,8 +10,11 @@
 
 section#banner .container {
   display: flex;
-  /* justify-content: flex-start; */
   align-items: center;
+}
+
+section#banner .container > div {
+  width: 100%;
 }
 
 section#banner .container h2,
