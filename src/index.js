@@ -1,4 +1,4 @@
-import pages from "./routes.js";
+import pages from "./pages.js";
 // const path = require("path"):
 
 // const local = path.resolve(__dirname);
