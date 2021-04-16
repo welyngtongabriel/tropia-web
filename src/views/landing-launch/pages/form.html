@@ -130,7 +130,7 @@
                     name="name"
                     id="name"
                     placeholder="Digite seu nome"
-                    required
+                    
                   />
                 </div>
 
@@ -141,7 +141,7 @@
                     name="email"
                     id="email"
                     placeholder="soudemais@email.com"
-                    required
+                    
                   />
                 </div>
 
@@ -156,7 +156,7 @@
                     id="phone"
                     placeholder="(DDD) 8.8888-8888"
                     maxlength="11"
-                    required
+                    
                   />
                 </div>
               </fieldset>
@@ -166,7 +166,7 @@
                 <div class="locality">
                   <div class="state">
                     <label for="state">Estado</label>
-                    <select name="state" id="state" required>
+                    <select name="state" id="state" >
                       <option selected disable value="">UF</option>
                       <option value="">PR</option>
                       <option value="">SC</option>
@@ -175,7 +175,7 @@
                   </div>
                   <div class="city">
                     <label for="city">Cidade?</label>
-                    <select name="city" id="city" required>
+                    <select name="city" id="city" >
                       <option selected disable value="">
                         Selecione sua cidade maravilhosa
                       </option>
@@ -198,17 +198,24 @@
                   name="terms"
                   id="terms"
                   class="checkbox"
-                  required
+                  
                 />
               </div>
 
-              <button
+              <a
+                href="./thanks.html"
+                class="button button-subscribe"
+                style="width: 250px; height: 60px"
+              >
+                Quero ser avisado
+              </a>
+              <!-- <button
                 type="submit"
                 class="button button-subscribe"
                 style="width: 250px; height: 60px"
               >
                 Quero ser avisado
-              </button>
+              </button> -->
             </form>
           </div>
         </main>
