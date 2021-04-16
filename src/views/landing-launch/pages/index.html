@@ -15,6 +15,14 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="../../../../public/css/landing-launch/form/form.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../../public/css/landing-launch/index/contact-us.css"
+    />
 
     <!-- CSS -->
     <link rel="stylesheet" href="../../../../public/css/global.css" />
@@ -211,6 +219,7 @@
             </div>
           </div>
         </section>
+
         <div class="container">
           <div class="interest">
             <p>
@@ -222,7 +231,6 @@
             </a>
           </div>
         </div>
-
 
         <!-- Apoie a causa -->
         <section id="support-us">
@@ -249,6 +257,79 @@
             </div>
           </div>
         </section>
+
+        <!-- Contato -->
+        <section id="contact-us">
+          <div class="container">
+            <div>
+              <h4>Fale com a gente</h4>
+              <p>Um texto aqui</p>
+            </div>
+            <form class="form-register" action="" method="">
+              <fieldset class="group">
+                <div class="field">
+                  <label for="name">Qual é o seu nome?</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Digite seu nome"
+                    required
+                  />
+                </div>
+
+                <div class="field">
+                  <label for="email">Qual teu e-mail?</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="soudemais@email.com"
+                    required
+                  />
+                </div>
+
+                <div class="field">
+                  <label for="phone"
+                    >Número de telefone
+                    <em>(Não se preocupe, não vamos te ligar)</em></label
+                  >
+                  <input
+                    type="phone"
+                    name="phone"
+                    id="phone"
+                    placeholder="(DDD) 8.8888-8888"
+                    maxlength="11"
+                    required
+                  />
+                </div>
+
+                <div class="field">
+                  <label for="message">Mensagem</label>
+                  <textarea
+                    type="text"
+                    name="message"
+                    id="message"
+                    rows="6"
+                    placeholder="Escreva sua mensagem aqui."
+                    required
+                  ></textarea>
+                </div>
+              </fieldset>
+
+              <button
+                type="submit"
+                class="button button-subscribe"
+                style="width: 250px; height: 60px"
+              >
+                ENVIAR
+              </button>
+
+            </form>
+            
+          </div>
+        </section>
+
       </main>
     </div>
 

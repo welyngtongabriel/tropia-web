@@ -1,0 +1,34 @@
+#contact-us {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#contact-us div.container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+#contact-us div.container > div {
+  height: 100px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 650px) {
+  #contact-us form {
+    width: 80%;
+  }
+}
+
+@media (min-width: 780px) {
+  #contact-us form {
+    width: 50%;
+  }
+}

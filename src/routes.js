@@ -1,8 +1,13 @@
-// const path = require("path");
+const express = require("express");
+const routes = express.Router();
 
-const pages = {
-// module.exports = {
-  landing_launch: "./views/landing-launch/pages/index.html",
-};
+routes.get("/", function (req, res) {
+  res.send("Bem vindo a tropia!");
+});
 
-export default pages;
+routes.get("/form", function (req, res) {
+  res.send("Página do formulário.");
+});
+routes.post("/form", function (req, res) {});
+
+module.exports = routes;
