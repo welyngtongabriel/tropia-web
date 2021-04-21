@@ -103,14 +103,15 @@
             alt=""
           />
         </div>
+
         <main class="form-region">
           <div>
             <div class="choice">
               <div>
                 <h3>Bora lá!</h3>
                 <div class="choice-buttons">
-                  <button class="user active">Sou doador</button>
-                  <button class="business">Sou Hemocentro</button>
+                  <button id="button-donor" class="button btn-form-user on">Sou doador</button>
+                  <button id="button-company" class="button btn-form-user">Sou Hemocentro</button>
                 </div>
               </div>
               <p>
@@ -121,7 +122,9 @@
 
             <hr class="divider-solid" />
 
-            <form class="form-register" action="" method="">
+            <!-- FORMULÁRIO DO DOADOR -->
+             
+            <form class="form-register form-donor on" action="" method="">
               <fieldset class="group">
                 <div class="field">
                   <label for="name">Qual é o seu nome?</label>
@@ -217,6 +220,119 @@
                 Quero ser avisado
               </button> -->
             </form>
+
+            <!-- FORMULÁRIO DO HEMOCENTRO -->
+            <form class="form-register form-company" action="" method="">
+              <fieldset class="group">
+                <div class="field">
+                  <label for="representative"
+                    >Qual é o seu nome?</label
+                  >
+                  <input
+                    type="text"
+                    name="name"
+                    id="representative"
+                    placeholder="Digite seu nome"
+                    
+                  />
+                </div>
+
+                <div class="field">
+                  <label for="hemocentro_name">Que hemocentro você representa?</label>
+                  <input
+                    type="text"
+                    name="hemocentro_name"
+                    id="company"
+                    placeholder="Digite o nome do hemocentro"
+                    
+                  />
+                </div>
+
+                <div class="field">
+                  <label for="hemocentro_email">E-mail corporativo</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="hemocentro_email"
+                    placeholder="falarcom@hemocentro.com.br"
+                    
+                  />
+                </div>
+
+                <div class="field">
+                  <label for="phone"
+                    >Número de telefone</label
+                  >
+                  <input
+                    type="phone"
+                    name="phone"
+                    id="phone"
+                    placeholder="(DDD) 8.8888-8888"
+                    maxlength="11"
+                    
+                  />
+                </div>
+
+                
+              </fieldset>
+
+              <div class="field">
+                <strong>Em que cidade fica o Hemocentro?</strong>
+                <div class="locality">
+                  <div class="state">
+                    <label for="hemocentro_state">Estado</label>
+                    <select name="hemocentro_state" id="hemocentro_state" >
+                      <option selected disable value="">UF</option>
+                      <option value="">PR</option>
+                      <option value="">SC</option>
+                      <option value="">SP</option>
+                    </select>
+                  </div>
+                  <div class="city">
+                    <label for="hemocentro_city">Cidade?</label>
+                    <select name="hemocentro_city" id="hemocentro_city" >
+                      <option selected disable value="">
+                        Selecione sua cidade maravilhosa
+                      </option>
+                      <option value="">Curitiba</option>
+                      <option value="">Ponta Grossa</option>
+                      <option value="">Curitibanos</option>
+                      <option value="">Umuarama</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field-terms">
+                <label for="terms"
+                  >Aceito os <a href="#" class="terms">Termos</a> e
+                  <a href="#" class="terms">Condições</a></label
+                >
+                <input
+                  type="checkbox"
+                  name="terms"
+                  id="terms"
+                  class="checkbox"
+                  
+                />
+              </div>
+
+              <a
+                href="./thanks.html"
+                class="button button-subscribe"
+                style="width: 250px; height: 60px"
+              >
+                Queremos conhecer
+              </a>
+              <!-- <button
+                type="submit"
+                class="button button-subscribe"
+                style="width: 250px; height: 60px"
+              >
+                Quero ser avisado
+              </button> -->
+            </form>
+
           </div>
         </main>
       </div>
@@ -347,5 +463,6 @@
       $("#phone").mask("(00) 0.0000-0000");
     </script>
     <script src="../../../../public/scripts/responsive-menu.js"></script>
+    <script src="../../../../public/scripts/alternate-form.js"></script>
   </body>
 </html>

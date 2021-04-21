@@ -16,12 +16,9 @@ section .container {
 .form-region div.choice div {
   display: flex;
   justify-content: space-between;
-}
 
-.form-region div.choice button.active {
-  
+  height: 40px;
 }
-
 
 .form-region hr {
   width: 100%;
@@ -64,7 +61,6 @@ section .image-region {
 
 /* MEDIA QUERIES */
 @media (max-width: 650px) {
-  
   section .container {
     justify-content: center;
 
